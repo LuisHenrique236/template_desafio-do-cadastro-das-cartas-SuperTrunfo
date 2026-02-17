@@ -11,29 +11,29 @@ int main(){
 
     printf("\n--Carta 01--\n");
     
-    printf("Digite a letra para o estado:"); //uma letra para a carta
-    scanf( "%c", &estado );
+    printf("Digite a letra para o estado: "); //uma letra para a carta
+    scanf( " %c", &estado );
     
-    printf("Codigo:"); // letra mais nomero da carta 
+    printf("Codigo: "); // letra mais nomero da carta 
     scanf("%s", codigo);
 
-    printf("Nome da cidade:");
+    printf("Nome da cidade: ");
     scanf("%s", nome_cidade );
 
-    printf("População:");
+    printf("População: ");
     scanf("%d", &populacao);
 
-    printf("Área:");
+    printf("Área: ");
     scanf("%f", &area);
 
-    printf("PIB:");
-    scanf("%d", &pib);
+    printf("PIB: ");
+    scanf("%f", &pib);
  
-    printf("Pontos turisticos:");
+    printf("Pontos turisticos: ");
     scanf("%d", &turisticos);
 
     //imprimir 
-    Printf("\n--Dados da Carta--\n");
+    printf("\n--Dados da Carta--\n");
     printf("Estadooo: %c\n", estado);
     printf("Codigo: %s\n", codigo);
     printf("Nome da ciade: %s\n", nome_cidade);
